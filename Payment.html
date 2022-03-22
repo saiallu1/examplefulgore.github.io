@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=2.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.body{
+  background-color: ##7fff00 ;
+}
+.navbar{
+  width: 105%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #7ffff0 ;
+}
+li{
+  text-transform: capitalize;
+}
+.navbar ul li{
+list-style: none;
+display: inline-block;
+margin:   0 20px;
+position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #ff;
+  text-transform:uppercase;
+}
+.navbar ul li ::after{
+  content: ' ';
+height: 3px;
+width: 0;
+background: #009688;
+position: absolute;
+left: 0;
+bottom:-10;
+transition: 0.5s;
+}
+
+.columns {
+  float:left;
+  width: 25%;
+  padding: 18px 20px;
+  align-items: left;
+  align-self: center;
+}
+.column {
+  float:right;
+  width: 25%;
+  padding: 18px 20px;
+  align-items: left;
+  align-self: center;
+}
+.column-1 {
+  float:left;
+  width: 25%;
+  padding: 18px 20px;
+  align-items: left;
+  align-self: center;
+}
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 10;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  align-items: center;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="banner">
+    <div class="navbar">
+<ul>
+<li>  <a href="contact.html">contact us</a></li>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="Orders.html"> Payment Submission</a></li>
+</ul>
+    </div>
+  </div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header"style="background-color:#008B8B">Basic</li>
+    <li class="grey">₹50 /Month</li>
+    <li>feature-1</li>
+    <li>feature-2</li>
+    <li>feature-3</li>
+    <li>feature-4</li>
+    <li class="grey"><a href="https://rzp.io/l/ruXuFPHuv0"style="background-color:#008B8B"  class="button">Subscribe</a></li>
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header"style="background-color:#008B8B">Basic</li>
+    <li class="grey">₹100 /Month</li>
+    <li>feature-1</li>
+    <li>feature-2</li>
+    <li>feature-3</li>
+    <li>feature-4</li>
+    <li class="grey"><a href="https://rzp.io/i/zRiso1arC"style="background-color:#008B8B"  class="button">Subscribe</a></li>
+  </ul>
+</div>
+
+<div class="column">
+  <ul class="price">
+    <li class="header" style="background-color:#04AA6D">Pro</li>
+    <li class="grey">₹500/ year</li>
+    <li>feature-1</li>
+    <li>feature-2</li>
+    <li>feature-3</li>
+    <li>feature-4</li>
+    <li class="grey"><a href="https://rzp.io/i/zRiso1arC" style="background-color:#04AA6D" class="button">Subscribe</a></li>
+  </ul>
+</div>
+
+<div class="column-1">
+  <ul class="price">
+    <li class="header"  style="background-color:#4682B4">Premium</li>
+    <li class="grey">₹1000/ year</li>
+    <li>feature-1</li>
+    <li>feature-2</li>
+    <li>feature-3</li>
+    <li>feature-4</li>
+    <li class="grey"><a href="https://rzp.io/i/ZwBwLEGtQ" class="button" style="background-color:#4682B4">Subscribe</a></li>
+  </ul>
+</div>
+
+</body>
+</html>
